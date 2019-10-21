@@ -18,7 +18,7 @@ export default StudentCardView
 const StudentCard = ({ student, index, toggleMarks}) => {
   return (
     <div className="col-12 col-sm-6 col-md-4 col-lg-3" key={index}>
-      <div className="our-team">
+      <div className="card-container">
         <div className="picture">
           <img
             className="img-fluid"
@@ -26,7 +26,7 @@ const StudentCard = ({ student, index, toggleMarks}) => {
             alt="student"
           />
         </div>
-        <div className="team-content">
+        <div className="card-content">
           {student['name']}
           <h4 className="title">
             Roll Number:

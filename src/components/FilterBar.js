@@ -1,8 +1,6 @@
 import React from 'react'
-
 import { Toolbar, AppBar, Button } from '@material-ui/core';
 import InputBase from '@material-ui/core/InputBase';
-import { fade } from '@material-ui/core/styles/colorManipulator';
 import SearchIcon from '@material-ui/icons/Search';
 import IconButton from '@material-ui/core/IconButton';
 import CloseIcon from '@material-ui/icons/Close';
@@ -14,7 +12,7 @@ const FilterBar = ({classes, handlSearchChange, toggleName, nameOpen, handleClos
     <AppBar>
       <Toolbar>
         <Typography className={classes.title} variant="h4" color="inherit" noWrap>
-          Dashboard
+          Students Dashboard
         </Typography>
         <div className={classes.grow} />
         <div className={classes.search}>
@@ -22,7 +20,7 @@ const FilterBar = ({classes, handlSearchChange, toggleName, nameOpen, handleClos
             <SearchIcon />
           </div>
           <InputBase
-            placeholder="Search…"
+            placeholder="Search for student"
             classes={{
               root: classes.inputRoot,
               input: classes.inputInput,

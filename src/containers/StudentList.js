@@ -7,8 +7,8 @@ import { connect } from 'react-redux';
 import { compose } from 'redux';
 import { fade } from '@material-ui/core/styles/colorManipulator';
 import { loadData } from '../redux/actions';
-import StudentCardView from './StudentCardView';
-import FilterBar from './FilterBar';
+import StudentCardView from '../components/StudentCardView';
+import FilterBar from '../components/FilterBar';
 
 const styles = theme => ({
   root: {

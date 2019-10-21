@@ -56,7 +56,7 @@ class StudentDetails extends Component {
           type: 'column'
         },
         title: {
-          text: 'Marks obtained per each subject'
+          text: 'Marks obtained per subject'
         },
         xAxis: {
           categories: []
